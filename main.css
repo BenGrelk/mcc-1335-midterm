@@ -1,0 +1,91 @@
+/* cool black and blue theme */
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+input {
+    background-color: #232323;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a {
+    color: #00d0ff;
+}
+
+footer {
+    background-color: #383838;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.error {
+    color: #ff6363;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#assignment_input, #assignment_display {
+    float: left;
+    margin-right: 0;
+    margin-left: 25%
+}
+
+#quiz_input, #quiz_display {
+    float: right;
+    margin-right: 25%;
+    margin-left: 0;
+}
+
+#assignment_input, #quiz_input {
+    display: inline;
+}
+
+#assignment_display, #quiz_display {
+    display: inline;
+}
+
+#submit {
+    background-color: #2e8600;
+    border: 1px solid #ffffff;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: block;
+    margin: 1% auto;;
+    text-align: center;
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    padding: 5px 2px;
+}
